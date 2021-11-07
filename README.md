@@ -1,3 +1,19 @@
+# Burn to claim v2
+
+## Getting started
+
+### Spin up 2 networks
+```
+  yarn network:1
+  yarn network:2
+```
+use infor in terminal of `yarn network:1` and `yarn network:2` to populate data in scenario_1
+
+### Run scenario
+```
+  yarn hardhat run scripts/scenario_1.ts
+```
+
 # Advanced Sample Hardhat Project
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
